@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520"
+    viewBox="0 0 960 520">
+    <rect width="960" height="520" fill="#f9fbff" />
+    <text x="480" y="34" text-anchor="middle" font-size="24" font-weight="700"
+        fill="#1f2d3d">Global_active_power resampled over day for sum</text>
+    <g stroke="#a9b8c9" stroke-width="1">
+        <line x1="110" y1="100" x2="860" y2="100" />
+        <line x1="110" y1="100" x2="110" y2="420" />
+        <line x1="110" y1="420" x2="860" y2="420" />
+        <line x1="860" y1="100" x2="860" y2="420" />
+    </g>
+    <g fill="none" stroke="#2d9cdb" stroke-width="3">
+        <path
+            d="M110 350 C145 290, 180 240, 210 200 S285 150, 330 190 S420 260, 480 220 S590 155, 660 180 S740 220, 790 170 S825 140, 860 100" />
+    </g>
+    <g font-size="12" fill="#44566d">
+        <text x="110" y="448">Jan</text>
+        <text x="330" y="448">Mar</text>
+        <text x="555" y="448">May</text>
+        <text x="780" y="448">Jul</text>
+        <text x="72" y="425">0</text>
+        <text x="59" y="200">100</text>
+        <text x="59" y="110">150</text>
+    </g>
+    <text x="50" y="245" transform="rotate(-90 50 245)" font-size="13"
+        fill="#2a3b52">Power</text>
+    <text x="485" y="490" text-anchor="middle" font-size="13"
+        fill="#2a3b52">Time</text>
+</svg>

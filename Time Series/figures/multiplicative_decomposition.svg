@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620"
+    viewBox="0 0 960 620">
+    <rect width="960" height="620" fill="#f5f9ff" />
+    <text x="480" y="32" text-anchor="middle" font-size="24" font-weight="700"
+        fill="#1f2d3d">Multiplicative Decomposition</text>
+    <g transform="translate(20,60)">
+        <rect x="0" y="0" width="430" height="220" fill="#ffffff"
+            stroke="#dfeaf7" />
+        <text x="20" y="28" font-size="16" fill="#3b4a5a">Observed</text>
+        <path
+            d="M30 170 C80 150, 120 110, 170 100 S250 80, 290 95 S350 110, 390 75"
+            fill="none" stroke="#2f80ed" stroke-width="2.5" />
+        <line x1="30" y1="170" x2="390" y2="170" stroke="#9db0c4" />
+        <line x1="30" y1="170" x2="30" y2="30" stroke="#9db0c4" />
+    </g>
+    <g transform="translate(470,60)">
+        <rect x="0" y="0" width="430" height="220" fill="#ffffff"
+            stroke="#dfeaf7" />
+        <text x="20" y="28" font-size="16" fill="#3b4a5a">Trend</text>
+        <path
+            d="M30 150 C80 145, 120 130, 170 120 S250 105, 290 100 S350 92, 390 90"
+            fill="none" stroke="#27ae60" stroke-width="2.5" />
+        <line x1="30" y1="170" x2="390" y2="170" stroke="#9db0c4" />
+        <line x1="30" y1="170" x2="30" y2="30" stroke="#9db0c4" />
+    </g>
+    <g transform="translate(20,320)">
+        <rect x="0" y="0" width="430" height="220" fill="#ffffff"
+            stroke="#dfeaf7" />
+        <text x="20" y="28" font-size="16" fill="#3b4a5a">Seasonality</text>
+        <path
+            d="M30 135 C70 110, 110 120, 150 100 S220 90, 250 120 S300 130, 330 124 S370 110, 390 97"
+            fill="none" stroke="#e67e22" stroke-width="2.5" />
+        <line x1="30" y1="170" x2="390" y2="170" stroke="#9db0c4" />
+        <line x1="30" y1="170" x2="30" y2="30" stroke="#9db0c4" />
+    </g>
+    <g transform="translate(470,320)">
+        <rect x="0" y="0" width="430" height="220" fill="#ffffff"
+            stroke="#dfeaf7" />
+        <text x="20" y="28" font-size="16" fill="#3b4a5a">Residual</text>
+        <path
+            d="M30 145 C60 160, 90 140, 130 115 S180 100, 220 118 S300 150, 330 132 S370 120, 390 105"
+            fill="none" stroke="#c0392b" stroke-width="2.5" />
+        <line x1="30" y1="170" x2="390" y2="170" stroke="#9db0c4" />
+        <line x1="30" y1="170" x2="30" y2="30" stroke="#9db0c4" />
+    </g>
+</svg>

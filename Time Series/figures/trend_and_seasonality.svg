@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540"
+    viewBox="0 0 960 540">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f8fbff" />
+            <stop offset="100%" stop-color="#eef6ff" />
+        </linearGradient>
+    </defs>
+    <rect width="960" height="540" fill="url(#bg)" />
+    <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="700"
+        fill="#1f2d3d">Trend and Seasonality</text>
+    <text x="480" y="58" text-anchor="middle" font-size="13"
+        fill="#4a5c75">AirPassengers dataset</text>
+    <g stroke="#8aa2c2" stroke-width="1">
+        <line x1="110" y1="120" x2="860" y2="120" />
+        <line x1="110" y1="120" x2="110" y2="440" />
+        <line x1="110" y1="440" x2="860" y2="440" />
+        <line x1="860" y1="120" x2="860" y2="440" />
+    </g>
+    <g fill="none" stroke="#d95f02" stroke-width="2.5">
+        <path
+            d="M110 390 C150 360, 190 330, 220 290 S290 210, 330 180 S420 155, 470 170 S570 140, 620 135 S700 120, 760 105 S820 95, 860 90" />
+    </g>
+    <g fill="#2f80ed" opacity="0.32">
+        <path
+            d="M110 390 C150 360, 190 330, 220 290 S290 210, 330 180 S420 155, 470 170 S570 140, 620 135 S700 120, 760 105 S820 95, 860 90 L860 440 L110 440 Z" />
+    </g>
+    <g font-size="12" fill="#4a5c75">
+        <text x="110" y="462">1949</text>
+        <text x="283" y="462">1953</text>
+        <text x="456" y="462">1957</text>
+        <text x="629" y="462">1961</text>
+        <text x="820" y="462">1965</text>
+        <text x="55" y="440">0</text>
+        <text x="45" y="245">200</text>
+        <text x="45" y="120">400</text>
+    </g>
+    <g stroke="#3b4a5a" stroke-width="1.2" stroke-dasharray="4 6">
+        <line x1="110" y1="286" x2="860" y2="286" />
+    </g>
+    <text x="80" y="225" transform="rotate(-90 80 225)" font-size="13"
+        fill="#2a3b52">Passengers</text>
+    <text x="470" y="500" text-anchor="middle" font-size="13"
+        fill="#2a3b52">Year</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520"
+    viewBox="0 0 960 520">
+    <rect width="960" height="520" fill="#f9fbff" />
+    <text x="480" y="34" text-anchor="middle" font-size="24" font-weight="700"
+        fill="#1f2d3d">Model loss</text>
+    <g stroke="#a9b8c9" stroke-width="1">
+        <line x1="110" y1="100" x2="860" y2="100" />
+        <line x1="110" y1="100" x2="110" y2="420" />
+        <line x1="110" y1="420" x2="860" y2="420" />
+        <line x1="860" y1="100" x2="860" y2="420" />
+    </g>
+    <g fill="none" stroke="#2d9cdb" stroke-width="3">
+        <path
+            d="M110 370 C180 330, 250 220, 330 180 S500 120, 600 145 S740 170, 860 110" />
+    </g>
+    <g fill="none" stroke="#d95f02" stroke-width="3">
+        <path
+            d="M110 390 C170 360, 240 305, 330 270 S500 200, 600 220 S740 238, 860 210" />
+    </g>
+    <g font-size="12" fill="#44566d">
+        <text x="110" y="448">0</text>
+        <text x="420" y="448">5</text>
+        <text x="730" y="448">10</text>
+        <text x="48" y="420">0.00</text>
+        <text x="45" y="230">0.05</text>
+        <text x="45" y="110">0.10</text>
+    </g>
+    <text x="35" y="250" transform="rotate(-90 35 250)" font-size="13"
+        fill="#2a3b52">Loss</text>
+    <text x="485" y="490" text-anchor="middle" font-size="13"
+        fill="#2a3b52">Epoch</text>
+    <g font-size="12" fill="#2a3b52">
+        <rect x="680" y="60" width="14" height="14" fill="#2d9cdb" />
+        <text x="705" y="72">train</text>
+        <rect x="760" y="60" width="14" height="14" fill="#d95f02" />
+        <text x="785" y="72">validation</text>
+    </g>
+</svg>
